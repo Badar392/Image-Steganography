@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DecryptExtractActivity"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="@string/txt18"
+        android:textColor="#01579B"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewStego"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/txt17"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_select_stego_image"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/txt19"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextDecryptionKey"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_select_stego_image"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Enter Decryption Key"
+        android:hint="@string/txt20"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_extract_message"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDecryptionKey"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/txt21"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewSecretMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt22"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/btn_extract_message"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>

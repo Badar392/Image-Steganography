@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Image Stagenography</string>
+    <string name="txt8"> EMBED </string>
+    <string name="txt9">EXTRACT</string>
+    <string name="txt10">Select Image"</string>
+    <string name="txt11">Enter Secret Message</string>
+    <string name="txt12">Enter Encryption Key</string>
+    <string name="txt13">Save Image</string>
+    <string name="txt14">Share Image</string>
+    <string name="txt15">EMBED</string>
+    <string name="txt16">Selected Image</string>
+    <string name="txt17">Stego Image</string>
+    <string name="txt23">Embed Secret Message</string>
+    <string name="txt18">Extract Secret Message</string>
+    <string name="txt19">Select Stego Image</string>
+    <string name="txt20">Enter Decryption Key</string>
+    <string name="txt21">EXTRACT </string>
+    <string name="txt22">"Secret message will be displayed here:</string>
+
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login1">Welcome Back!</string>
+    <string name="signup">Create An Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="sign_up">SIGNUP</string>
+    <string name="already_have_an_account_login">Already Have An Account? Login</string>
+</resources>
